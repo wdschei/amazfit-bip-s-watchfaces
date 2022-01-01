@@ -1,4 +1,4 @@
-# Bip S watchface creation
+# Amazfit Bip S watchface creation
 ## Watchfaces in this repository
 - [bip-s_lcars](./bip-s_lcars/README.md)
 

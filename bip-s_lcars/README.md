@@ -1,5 +1,5 @@
-# Amazifit Bip S LCARS watchface 
-LCARS style watchface with a long lineage back to the Pebble face I once had on my wrist.
+# Amazfit Bip S LCARS watchface 
+LCARS style watchface with a long lineage back to the Pebble face I once wore on my wrist.
 
 This incarnation provides:
 
@@ -17,12 +17,14 @@ This incarnation provides:
 
 The source of this watchface is available in this [GitHub repository](https://github.com/wdschei/amazfit-bip-s-watchfaces).
 
+The pre-compiled version of this watchface is available from [Amazfit Wwatchfaces](https://amazfitwatchfaces.com/bip/view/41270)
+
 | English (en)                                            | German (de)                                           | Spanish (es)                                           |
 | ------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
 | ![English](README_Screenshot_en.gif?raw=true "English") | ![German](README_Screenshot_de.gif?raw=true "German") | ![Spansh](README_Screenshot_es.gif?raw=true "Spanish") |
 
-## Historical lineage:
-- [Orignal Pebble face (Trekkie)](https://github.com/remixz/trekkie) by [remixz](https://github.com/remixz) (2013-04-13)
+## Historical lineage and Inspirational Credit:
+- [Original Pebble face (Trekkie)](https://github.com/remixz/trekkie) by [remixz](https://github.com/remixz) (2013-04-13)
   - Source of the [LCARS.ttf](https://github.com/remixz/trekkie/blob/master/resources/fonts/LCARS.ttf) and
     [LCARS_BOLD.ttf](https://github.com/remixz/trekkie/blob/master/resources/fonts/LCARS_BOLD.ttf) True Type Fonts in
     the [resources](../resources/fonts).

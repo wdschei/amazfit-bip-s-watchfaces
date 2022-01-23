@@ -17,7 +17,7 @@ This incarnation provides:
 
 The source of this watchface is available in this [GitHub repository](https://github.com/wdschei/amazfit-bip-s-watchfaces).
 
-The pre-compiled version of this watchface is available from [Amazfit Wwatchfaces](https://amazfitwatchfaces.com/bip/view/41270)
+The pre-compiled version of this watchface is available from [Amazfit Watchfaces](https://amazfitwatchfaces.com/bip/view/41270)
 
 | English (en)                                            | German (de)                                           | Spanish (es)                                           |
 | ------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |

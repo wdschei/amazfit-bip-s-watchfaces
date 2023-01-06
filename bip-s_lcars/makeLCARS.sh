@@ -2,7 +2,7 @@
 START_DIR=$(pwd)
 SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null 2>&1 && pwd )
 SCRIPT_NAME=$(basename "$(test -L "$0" && readlink "$0" || echo "$0")")
-CONFIG_FILE_BASE="bip-s_lcars_v4-0-3_24h"
+CONFIG_FILE_BASE="bip-s_lcars_v4-0-4_24h"
 
 PALETTE_DIR="../resources/palettes/"
 

@@ -109,27 +109,12 @@ as an [Adobe Illustrator file](https://dribbble.com/shots/1879422-Weather-Underg
 The [manifestinteractive](https://github.com/manifestinteractive) team extracted the icons and made them available at
 [this GitHub repository](https://github.com/manifestinteractive/weather-underground-icons)
 in multiple sizes and color combinations.
-The [`makeWeatherIcons.sh`](./makeWeatherIcons.sh) script performs all the necessary steps to retrieve, copy, and convert
-the images to make them compatible with the Bip S color palette.
-
-- NOTE: I manually modified the images from [SimsalaBip](https://amazfitwatchfaces.com/ucp/9085) 's
-        [Orignal Bip face](https://amazfitwatchfaces.com/bip/view/13642) to add color and change the size for the
-        Dust Storm ([0086.png](0086.png)), Blowing Dust ([0097.png](0097.png)), and Tornado ([0098.png](0098.png)) since
-        there weren't suitable replacements in the new icon set.
-
-## Putting it all together:
-The [`makeLCARS.sh`](./makeLCARS.sh) script can generate the weather icons (currently commented out) and then the
-watchface in all currently supported languages.
-
-If you want to clean up after it is done and manually reset to a clean branch, then execute:
-```shell
-git checkout -- 0001.png 0048.png 0049.png 0050.png 0051.png 0052.png 0053.png 0054.png &&
-rm *_[de][ens].png *_[de][ens].gif *_[de][ens].bin
-```
+The [`makeWeatherIcons.sh`](./makeWeatherIcons.sh) script performs all the necessary steps to retrieve, copy, and name
+the images to make them compatible with the Bip 3 Watchface Maker.
 
 ## Miscellaneous:
-- NOTE: One of the updates on the Bip S made the <10% battery scale unused and the expectation is now that this state is
-        included in the background.
+- NOTE: One of the updates on the Bip S and still on the Bip 3 makes the <10% battery scale unused and the expectation 
+        is now that this state is included in the background.
 
 Creating a few more images used for the display, background, and to clean up the auto-generated images since a few
 things aren't displayed yet.

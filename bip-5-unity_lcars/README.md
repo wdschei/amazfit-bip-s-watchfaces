@@ -81,7 +81,6 @@ convert -background none -fill "#ffffff" -define png:color-type=6 +antialias -fo
 convert -background none -fill "#ffffff" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"-0" -crop 5x+0+0 WorkoutHighLow_Dash.png
 convert -background none -fill "#ffffff" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"°8" -crop 12x+0+0 WorkoutHighLow_Deg.png
 convert -background none -fill "#ffffff" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:".8" -crop 5x+0+0 WorkoutHighLow_Dot.png
-convert -define png:color-type=6 -size 1x1 xc:none TransparentSinglePixel.png
 ```
 ## Creating the Battery Status:
 ```shell
@@ -96,8 +95,10 @@ convert -background none -fill "#000000" -define png:color-type=6 +antialias -fo
 convert -background none -fill "#000000" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"8" BatteryLevel_8.png
 convert -background none -fill "#000000" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"9" BatteryLevel_9.png
 convert -background none -fill "#000000" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"%" BatteryLevel_Percent.png
+convert -background none -fill "#000000" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"-0" -crop 5x+0+0 BatteryLevel_Dash.png
 convert -background none -fill "#000000" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:":8" -crop 5x+0+0 BatteryLevel_Dots.png
 convert -background none -fill "#000000" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"DILITHIUM" BatteryLevel_Label.png
+convert -background none -fill "#000000" -define png:color-type=6 +antialias -font ../resources/fonts/Context_Ultra_Condensed.ttf -pointsize 35 -trim label:"SpO2" SpO2_Label.png
 ```
 ## Creating the Days of the Week:
 I have included the English days of the week in the repository, but the [`makeDaysOfWeek.sh`](./makeDaysOfWeek.sh) script

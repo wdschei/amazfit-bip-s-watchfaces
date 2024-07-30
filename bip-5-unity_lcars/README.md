@@ -16,7 +16,7 @@ This incarnation provides:
 
 The source of this watchface is available in this [GitHub repository](https://github.com/wdschei/amazfit-bip-s-watchfaces/bip-3_lcars).
 
-The pre-compiled version of this watchface may soon be available in the Zepp store.
+I'm developing this watchface in the Zepp Watchface Maker [here](https://watchface.zepp.com/designer/43310) and hopefully it will soon be available in the Zepp store.
 
 ## Historical lineage and Inspirational Credit:
 - [Original Pebble face (Trekkie)](https://github.com/remixz/trekkie) by [remixz](https://github.com/remixz) (2013-04-13)
